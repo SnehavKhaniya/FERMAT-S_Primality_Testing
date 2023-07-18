@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-unsigned long int gcd(int a, int b){
+unsigned long int gcd(unsigned long int a, unsigned long int b){
     while(b > 0){
         unsigned long int r = a % b;
         a = b;
